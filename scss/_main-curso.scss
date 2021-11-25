@@ -1,0 +1,28 @@
+main{
+    display: flex;
+
+    section{
+
+        #curso{
+
+
+            & h2{
+                
+                font-size: 2.5rem;
+                margin-top: 2rem;
+
+                &{
+
+                    
+                    article{
+                        margin: auto;
+                        width: 600px;
+                        padding: 80px;
+
+                        
+                    }
+                }
+            }
+        }
+    }
+}

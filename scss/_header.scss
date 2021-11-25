@@ -1,0 +1,42 @@
+/* anidamiento  sass*/
+header {
+    background-color: #0001a0;
+    width: 100%;
+    display: flex;
+    
+
+    nav{
+        display: flex;
+        flex-direction: row;
+        text-decoration: solid ;
+        text-align: right;
+        justify-items: center;
+        align-items: center;
+
+        a{
+            color: #fffaff;
+            font-size: 20px;
+            text-decoration: none;
+            margin: 25px 50px 25px 50px;
+            border-bottom: 2px solid #E16D65;
+            transition: all .5s ease;
+            
+
+        }
+
+        /*movil*/
+        @media screen and (max-width: 480px){
+            background-color: #fffaff;
+            flex-direction: row ;
+            flex-direction: column;
+        }
+
+
+
+    }
+
+}
+
+
+
+
